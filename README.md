@@ -21,8 +21,8 @@ A Python application that hides and retrieves secret messages inside `.png` imag
 ```bash
 git clone https://github.com/shashank-shekhar-tripathi/SteganographyTool.git
 cd SteganographyTool
-pip install -r requirements.txt
-python SteganographyTool.py
+pip install pillow
+python main.py
 
 ```
 ## 🛠 Usage
