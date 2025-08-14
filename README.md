@@ -28,11 +28,11 @@ python main.py
 ## 🛠 Usage
 - Hide a secret message inside Picture
 ```bash
-python SteganographyTool.py hide input.png "Your secret message" output.png
+python main.py  
 ```
 - Reveal a secret message From Picture
 ```bash
-python SteganographyTool.py reveal output.png
+python main.py  
 ```
 
  
