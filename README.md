@@ -1,2 +1,39 @@
-# SteganographyTool
-**Steganography Tool (Python)** – A Python app that hides and retrieves secret text in `.png` images using the Least Significant Bit (LSB) technique. Offers simple encoding/decoding via CLI with no visible image change, ideal for secure communication, privacy, and digital watermarking.
+# Steganography Tool 🖼️🔒
+
+A Python application that hides and retrieves secret messages inside `.png` images using **Least Significant Bit (LSB) steganography**.
+
+## 📌 Features
+- Hide secret text inside PNG images.
+- Retrieve hidden text without visible changes in the image.
+- Simple command-line interface (CLI).
+- Works offline.
+
+---
+
+## 🛠️ Requirements
+- Python **3.8+**
+- Pillow (`pip install pillow`)
+
+---
+
+## 📥 Installation
+1. Clone the repository:
+```bash
+git clone https://github.com/shashank-shekhar-tripathi/SteganographyTool.git
+cd SteganographyTool
+pip install -r requirements.txt
+python SteganographyTool.py
+
+```
+## 🛠 Usage
+- Hide a secret message inside Picture
+```bash
+python SteganographyTool.py hide input.png "Your secret message" output.png
+```
+- Reveal a secret message From Picture
+```bash
+python SteganographyTool.py reveal output.png
+```
+
+ 
+
